@@ -1,0 +1,6 @@
+if SHIELD_FOOTSCROLL
+
+config ZMK_KEYBOARD_NAME
+    default "FootScroll"
+
+endif

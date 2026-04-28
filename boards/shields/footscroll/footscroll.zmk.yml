@@ -1,0 +1,10 @@
+file_format: "1"
+id: footscroll
+name: FootScroll
+type: shield
+url: https://github.com/kkrugley/footscroll
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - footscroll
