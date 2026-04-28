@@ -5,9 +5,9 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.1
+      revision: main
       import: app/west.yml
-  board-root: config/boards
-  shield-root: config/boards/shields
   self:
     path: config
+    board-root: config/boards
+    shield-root: config/boards/shields
