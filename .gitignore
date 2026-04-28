@@ -1,4 +1,4 @@
 /docs/
-.claude/
+.claude
 *.md
 !README.md
