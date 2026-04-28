@@ -1,3 +1,5 @@
+[![Build and Release](https://github.com/kkrugley/footscroll/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/kkrugley/footscroll/actions/workflows/build.yml)
+
 # FootScroll: Ножная педаль для скроллинга
 
 FootScroll — это концепт и прототип ножной педали, предназначенной для управления скроллингом видеоконтента (TikTok, YouTube Shorts, Reels) без использования рук, позволяя пользователям работать за столом или дивана.
