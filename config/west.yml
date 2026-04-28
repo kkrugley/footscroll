@@ -9,3 +9,5 @@ manifest:
       import: app/west.yml
   self:
     path: config
+    board-root: boards
+    shield-root: boards/shields
