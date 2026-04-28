@@ -7,7 +7,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-  self:
-    path: config
-    board-root: config/boards
-    shield-root: config/boards/shields
+self:
+  path: config
