@@ -57,5 +57,5 @@ jobs:
             
             ---
             - Commit: ${{ github.sha }}
-            - Date: ${{ github.event.head_commit.timestamp }}
+            - Date: ${{ github.event.head_commit.timestamp || github.event.repository.updated_at }}
           files: artifacts/**/*.uf2
