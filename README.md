@@ -1,24 +1,32 @@
 [![Build and Release](https://github.com/kkrugley/footscroll/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/kkrugley/footscroll/actions/workflows/build.yml)
+![Static Badge](https://img.shields.io/badge/ZMK_Firmware-blue?style=flat&logo=qmk)
+![Static Badge](https://img.shields.io/badge/AutoHotkey-v2-green?style=flat&logo=autohotkey)
 
-# FootScroll: Ножная педаль для скроллинга
 
-FootScroll — это концепт и прототип ножной педали, предназначенной для управления скроллингом видеоконтента (TikTok, YouTube Shorts, Reels) без использования рук, позволяя пользователям работать за столом или дивана.
 
-## Концепция
-Переосмысление ножной педали швейной машины: вместо того чтобы инструмент помогал в работе, он освобождает руки для работы, делая фокус на результате. Основная идея — использовать физическое нажатие педали для автоматизации действий, связанных со скроллингом.
+# FootScroll: Foot Pedal for Scrolling
 
-## Железо и Аппаратное обеспечение
-*   **Контроллер:** nice!nano (BLE HID)
-*   **Питание:** Li-ion 18650 (зарядка USB-C)
-*   **Корпус:** 3D-печать (Ender-3 V3 SE)
-*   **Эстетика:** Минимализм, низкий профиль, отсылка к эстетике Teenage Engineering и Braun.
-*   **Материалы:** Анодированный алюминий для основания, резине для подкладки, мягкий пластик для педали.
+FootScroll is a concept and prototype of a foot pedal designed for controlling video content scrolling (TikTok, YouTube Shorts, Reels).
 
-## Программная часть (Прототип Windows)
-*   **Скрипт:** `footscroll_setup.ps1` (включает установку AutoHotKey v2, определение координат монитора, и AHK-скрипт).
-*   **Логика:** Нажатие педали (F14) → AHK перехватывает ввод → курсор телепортируется на второй монитор → скроллинг → возврат курсора.
+## Concept
+Reimagining the sewing machine foot pedal. Back then - a tool that freed hands for work. Now - frees hands to avoid work.
 
-## Сценарии использования
-1.  **Desktop (Windows):** Педаль управляет курсором на втором мониторе, имитируя скроллинг.
-2.  **iPad:** Педаль эмулирует быстрое пролистывание (Burst скроллинг) для просмотра видео.
+One gesture - scroll. Only forward. Dumb scrolling doesn't imply going back.
 
+## Hardware
+*   **Controller:** nice!nano (BLE HID)
+*   **Power:** Li-ion battery
+*   **Case:** 3D-printed plastic case from 3 parts
+*   **Interfaces:** 1 USB Type-C port - shared for charging and flashing, 2 switches - one for mode switching, one for power on/off
+
+## Software
+
+### Windows
+
+*   **Script:** `footscroll_setup.ps1` (includes installing AutoHotKey v2, defining monitor coordinates, and AHK script).
+*   **Logic:** Pedal press (F14) → AHK intercepts input → cursor teleports to second monitor → scrolling → cursor return.
+
+
+### iPad
+
+*   **Logic:** Pedal press emulates rapid mouse wheel scrolling (Burst scrolling).
