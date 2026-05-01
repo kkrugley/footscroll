@@ -32,7 +32,7 @@
         default_layer {
             bindings = <
                 &kp F14
-                &mo 1
+                &tog 1
             >;
         };
 
