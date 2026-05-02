@@ -1,4 +1,69 @@
+# Global project files
 /docs/
 .claude
 *.md
 !README.md
+
+# KiCAD
+*.pro
+*.py
+~-*
+*.bak
+*.tmp
+*.rej
+*.obs
+*.log
+*.lck
+*.json
+*.js
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_mod-bak
+*.kicad_dru-bak
+*.lib-bak
+*.net-bak
+*-cache.lib
+*-full.lib
+*.xml
+
+# KiCAD temp folders
+hardware/wiring-diagram/gerber/
+/hardware/wiring-diagram/footscroll/node_modules
+/hardware/wiring-diagram/footscroll/footscroll-backups
+/hardware/wiring-diagram/footscroll/.history/
+
+# KiCAD backup files
+hardware/wiring-diagram/footscroll-backups/
+*.pro~
+*.py~
+*.kicad_mod
+*.kicad_dru
+*.lib
+*.net
+*.net
+
+# Kompas 3D
+*.m3~
+*.a3~
+*.m3dx
+*.c3dx
+
+# Blender 3D
+*.blend1
+/hardware/enclosure/render/
+
+# Backup files
+*.~*
+
+# Log files
+*.log
+
+# Cache folders
+*.cache/
+
+# Templates
+*.tmt
+
+# Family/assembly backups
+*.asm.*.bak
+*.prj.*.bak

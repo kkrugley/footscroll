@@ -14,7 +14,7 @@ Reimagining the sewing machine foot pedal. Back then - a tool that freed hands f
 One gesture - scroll. Only forward. Dumb scrolling doesn't imply going back.
 
 ## Hardware
-*   **Controller:** nice!nano (BLE HID)
+*   **Controller:** nice!nano v2
 *   **Power:** Li-ion battery
 *   **Case:** 3D-printed plastic case from 3 parts
 *   **Interfaces:** 1 USB Type-C port - shared for charging and flashing, 2 switches - one for mode switching, one for power on/off
